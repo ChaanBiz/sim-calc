@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:wght@100,200,300,400,500,600,700,800,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background-color: rgba(235, 158, 70, 0.5);
+}
+body #calc {
+  background-color: hsl(0, 0%, 15%);
+  border-radius: 20px;
+  max-width: 500px;
+  overflow: hidden;
+}
+body #calc #display {
+  width: 100%;
+  padding: 20px;
+  font-size: 4rem;
+  text-align: left;
+  border: none;
+  background-color: hsl(0, 0%, 20%);
+  color: white;
+}
+body #calc #keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  padding: 30px;
+}
+body #calc #keys .op {
+  background-color: hsl(35, 91%, 55%);
+}
+body #calc #keys .op:hover {
+  background-color: hsl(35, 91%, 65%);
+}
+body #calc #keys .op:active {
+  background-color: hsl(35, 91%, 75%);
+}
+body #calc #keys button {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: none;
+  background-color: hsl(0, 0%, 30%);
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+body #calc #keys button:hover {
+  background-color: hsl(0, 0%, 40%);
+}
+body #calc #keys button:active {
+  background-color: hsl(0, 0%, 50%);
+}
+
+/*# sourceMappingURL=style.css.map */
